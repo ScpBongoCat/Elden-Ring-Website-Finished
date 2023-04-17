@@ -1,0 +1,64 @@
+html {
+  background: url(img/elden-ring-cover.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.resize {
+  width: 550px;
+  opacity: 1;
+}
+
+body {
+  text-align: center;
+  font-family: cursive;
+  color: #d4c499;
+
+  width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 1px 60px 700px;
+
+  border: solid black;
+  border-radius: 20px;
+
+  background-color: rgb(14, 12, 9);
+  opacity: 0.9;
+}
+p {
+  font-size: large;
+  font-style: normal;
+}
+a {
+  color: #d4c499;
+}
+
+hr {
+  border: 1px solid #d4c499;
+}
+
+input {
+  width: 40%;
+  padding: 4px 8px;
+  border: 3px solid #d4c499;
+  border-radius: 3px;
+  background-color: #8b8060;
+
+  font-size: medium;
+  color: #d4c499;
+  font-family: cursive;
+}
+
+input[type="text"]:focus {
+  border: 8px solid #d4c499;
+}
+
+button {
+  border: 3px solid #d4c499;
+  background-color: #8b8060;
+  border-radius: 3px;
+  padding: 5px 10px;
+
+  color: #d4c499;
+  font-size: large;
+  font-family: cursive;
+}
